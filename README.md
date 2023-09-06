@@ -1,43 +1,47 @@
 # E-Commerce System!
 
-## An Order E-commerce System using Spring Data JPA!
+## An E-commerce System using Spring Data JPA!
 
-System to calculate the total value of an order, considering a percentage of discount and shipping. Calculating the total order value consists of applying the discount to the base order value and adding the shipping cost.
+In this project we are going to implement the following domain model using an ORM(Object Relational Mapping) tool:
 
-The discount percentage is entered by the user, as well as the base value of the order, and the identification code.
-&nbsp;  
-&nbsp;  
-### The rule for calculating shipping costs is as follows:
-
-
-- If the order value is below $100.00, shipping costs $20.00.
-- If the order value is between $100.00 and $200.00, shipping costs $12.00.
-- If it is $200 or more, shipping is free.
-  
-&nbsp;  
-
-The logic for calculating the total order value is implemented by components (services), each with its responsibility, as described below:
-
-- OrderService Service: responsible for operations related to orders.
-- ShippingService Service: responsible for operations related to freight.
-
+![](images/domainmodel.png)
 
 &nbsp;  
-This solution is implemented in Java with Spring Boot. The output is shown in the application's terminal log. Each service is implemented as a component registered with @Service.
-&nbsp;  
+This domain model is implemented in Spring using Spring Data JPA that simplifies database access and management in Spring applications, reducing the amount of standard code, providing a consistent and convenient way to interact with databases, and supporting multiple databases. In this case we use the H2 database.
+&nbsp; 
 &nbsp;  
 
-|               SCREENSHOT             
+|               SCREENSHOTS             
 :------------------------------------------------:
- ![](project-screenshot/ordering_system.png)
+ ![](images/screenshot01.png)
 
+&nbsp; 
+&nbsp; 
+
+Use ORM, or Object-Relational Mapping, simplifies the experience of interacting with a database by bridging the gap between the object-oriented programming world and the relational database world. It does so through the following key mechanisms:
+
+- Abstraction of Database Operations
+- Mapping between Objects and Tables:
+- Automatic SQL Generation
+
+&nbsp;
+
+![](images/screenshot03.png)
+
+&nbsp;
+
+![](images/screenshot02.png)
+
+&nbsp;
+
+As you can see, the data was correctly generated in the database and the Domain Model was successfully implemented.
 
 ## How to use? 🔌
 1. Press the **Fork** button (top right the page) to save copy of this project on your account.
 
 2. Download the repository files (project) from the download section or clone this project by typing in the git bash the following command:
 
-       git clone https://github.com/lopesmfelipe/Order-Calculation-System.git
+       git clone https://github.com/lopesmfelipe/E-commerce-System.git
 3. Run the application in an IDE that has dedicated spring support such as Intellj, Eclipse, Netbeans.
  
 4. You can also modify this project as you want.
