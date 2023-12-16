@@ -1,4 +1,4 @@
-# E-Commerce System !
+# E-Commerce System!
 
 ## An E-commerce System using Spring Data JPA!
 
