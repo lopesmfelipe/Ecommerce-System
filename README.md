@@ -21,7 +21,9 @@ This domain model is implemented in Spring using Spring Data JPA that simplifies
 Use ORM, or Object-Relational Mapping, simplifies the experience of interacting with a database by bridging the gap between the object-oriented programming world and the relational database world. It does so through the following key mechanisms:
 
 - Abstraction of Database Operations
+- 
 - Mapping between Objects and Tables
+- 
 - Automatic SQL Generation
 
 &nbsp;
