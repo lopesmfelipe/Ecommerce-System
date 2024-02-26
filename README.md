@@ -7,7 +7,7 @@ In this project we are going to implement the following domain model using an OR
 ![](images/domainmodel.png)
 
 &nbsp;  
-This domain model is implemented in Spring using Spring Data JPA that simplifies database access and management in Spring applications, reducing the amount of standard code, providing a consistent and convenient way to interact with databases, and supporting multiple databases. In this case we use the H2 database.
+This domain model is implemented in Spring using Spring Data JPA that simplifies database access and management in Spring applications, reducing the amount of boilerplate code, providing a consistent and convenient way to interact with databases, and supporting multiple databases. In this case we use the H2 database.
 &nbsp; 
 &nbsp;  
 
